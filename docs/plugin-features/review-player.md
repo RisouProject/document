@@ -5,7 +5,7 @@ sidebar_label: プレイヤー評価 [4]
 slug: /plugin-features/review-player
 ---
 
-
+|        |       |
 | ------------- | ----------- |
 | 欲しい度       | ★★★☆☆ |
 | 優先度      |   ★☆☆☆☆ |

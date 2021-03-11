@@ -1,7 +1,6 @@
 module.exports = {
-  someSidebar: {
-    プラグイン構想: ['review-player'],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+  sidebar: {
+    'プラグイン構想': ['plugin-features/review-player'],
+    'Docusaurusの使い方': ['doc1', 'doc2', 'mdx'],
   },
 };
