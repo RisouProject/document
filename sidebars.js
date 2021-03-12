@@ -15,7 +15,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Minecraft部門',
+      label: '⛏️ Minecraft部門',
       items: [
         {
           type: 'category',
