@@ -21,7 +21,22 @@ module.exports = {
           type: 'category',
           label: 'プラグイン構想',
           items: [
-            'plugin-features/review-player'
+            'plugin-features/review-player',
+            'plugin-features/custom-advancement-badge',
+            'plugin-features/player-profile',
+            'plugin-features/adjust-drop-items',
+            'plugin-features/bank',
+            'plugin-features/tax',
+            'plugin-features/shop',
+            'plugin-features/fishing',
+            'plugin-features/gamble',
+            'plugin-features/fly',
+          ],
+        },
+        {
+          type: 'category',
+          label: '理想サーバー特有の要素',
+          items: [
           ],
         },
       ],
