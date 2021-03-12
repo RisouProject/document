@@ -1,8 +1,7 @@
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
-slug: /
+id: syntax
+title: ドキュメントページの書き方
+slug: /how-to-document/syntax
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

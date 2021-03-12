@@ -1,0 +1,34 @@
+---
+id: review-player
+title: プレイヤー評価 [4]
+sidebar_label: プレイヤー評価 [4]
+slug: /plugin-features/review-player
+---
+
+import { PluginInfo } from "@site/src/components/PluginInfo";
+
+<PluginInfo need={3} priority={1} />
+
+## コマンド
+
+| コマンド  | 説明       |
+| -------- | --------- |
+| `/good [プレイヤー名] [理由]`  | プレイヤーに高評価。理由は任意 |
+| `/bad [プレイヤー名] [理由]`   | プレイヤーに低評価           |
+| `/rep top`                  | Good評価のランキング         |
+| `/rep [プレイヤー名]`         | 対象プレイヤーの評判          |
+
+
+## その他情報
+
+### フォーマット
+JinKUN00 評価値：1.00
+
+## システム
+デフォルトは1.00 Like1回で＋0.75 Bad1回で−0.50
+評価値が0.70下回ったら一時BANでDiscordの解除申請に書き込んで貰って、スタッフがBadが不適切って思ったらPardon
+
+## 問題点
+グループによる荒らしが全員評価してBANしたら？
+
+→ 罰則を作って対処、評価2.0以下の人は評価できないようにする、BANは手動で行う。 (評価が0.70のプレイヤーをスタッフのみにその場で通知する。)
