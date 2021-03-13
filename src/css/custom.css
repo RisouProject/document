@@ -42,6 +42,6 @@ article {
   }
 }
 
-.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
+div[class*="docSidebarContainer"] {
   border-right: 0px !important;
 }
