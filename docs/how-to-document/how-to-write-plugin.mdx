@@ -1,0 +1,47 @@
+---
+id: how-to-write-plugin
+title: 将来欲しいプラグインの書き方
+---
+
+## 前提
+- VSCode (要領がわかるなら他のエディタでも良い)
+- GitHub Desktop (要領がわかるなら他のGitクライアントでも良い)
+
+## 書き方
+
+### まずはドキュメントをダウンロードしてくる
+1. GitHub Desktopを開き、`Clone a repository from the Internet...`を選択する
+  ![リポジトリをダウンロード](/img/how-to-document/how-to-write-plugin_1.png)
+1. 検索バーに`RisouProject`と入力し、`RisouProject/document`を選択する
+  ![リポジトリを検索](/img/how-to-document/how-to-write-plugin_2.png)
+1. その下にあるバーで、どこにダウンロードするかを選択・確認する
+
+### ドキュメントを作成する
+1. VSCodeを開く
+1. 左上の`ファイル(F)`から、`フォルダーを開く`を選択する
+1. さきほどクローンしたリポジトリのフォルダを選択する
+1. 左のエクスプローラーにある`docs`を押して展開する
+1. `plugin-features`を右クリックし、`新しいファイル`を選択する
+  ![ファイルを作成する](/img/how-to-document/how-to-write-plugin_3.png)
+1. 追加されたファイルに適当なファイル名をつけて、Enterを押す
+
+### 必要な情報を書き加える
+1. 先程作ったファイルをクリックして、中身を開く
+1. 以下の必要な情報を書く
+
+```
+---
+id: そのドキュメントの英語名
+title: そのドキュメントの日本語名　と　そのプラグインの欲しい度と優先度を合わせた評価値
+---
+```
+
+**例**
+```
+---
+id: tax
+title: 税金 ★10
+---
+```
+
+あとは、他のドキュメントと見比べて、真似して書く！

@@ -17,9 +17,31 @@
   --ifm-code-font-size: 95%;
 }
 
+:root[data-theme='dark'] {
+  --ifm-toc-border-color: #444950;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+article {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1416px) {
+  .main-wrapper {
+      max-width: 1500px;
+      width: 1500px;
+      align-self: center;
+  }
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocPage- {
+  border-right: 0px !important;
 }
