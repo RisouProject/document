@@ -19,6 +19,8 @@
 
 :root[data-theme='dark'] {
   --ifm-toc-border-color: #444950;
+  --ifm-hr-border-color: #444950;
+  --ifm-background-color: #20232a;
 }
 
 .docusaurus-highlight-code-line {
@@ -32,6 +34,10 @@ article {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+img {
+  margin: 16px 0;
 }
 
 @media (min-width: 1416px) {

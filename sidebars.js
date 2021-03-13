@@ -9,9 +9,9 @@ module.exports = {
       label: 'ドキュメントの使い方',
       items: [
         'how-to-document/syntax',
+        'how-to-document/how-to-write-plugin',
         'how-to-document/link-another-document',
         'how-to-document/how-to-mdx',
-        'how-to-document/how-to-write-plugin',
       ],
     },
     {
